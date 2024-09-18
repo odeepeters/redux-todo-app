@@ -1,0 +1,48 @@
+/* src/App.css */
+.app {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.task-form {
+  margin-bottom: 20px;
+}
+
+.task-form input,
+.task-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+}
+
+.task-form button {
+  padding: 8px 16px;
+  margin-right: 8px;
+}
+
+.error {
+  color: red;
+}
+
+.task-list {
+  margin-top: 20px;
+}
+
+.task-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+}
+
+.task-item.completed {
+  text-decoration: line-through;
+  background-color: #e0ffe0;
+}
+
+.task-item button {
+  margin-right: 8px;
+}
